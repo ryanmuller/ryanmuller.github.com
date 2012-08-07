@@ -33,11 +33,9 @@
             Computer Interaction Institute</a> at Carnegie Mellon University.
           My goal is to understand and design web-based environments where
           natural learning flourishes. You can see the coding part of what I do
-          here on Github, and a bit of the thinking and writing part of what I do on my <a
-            href="http://wiki.learnstream.org/wiki/"> research wiki</a>, my <a
-            href="http://blog.learnstream.org">blog</a>, and my <a
-            href="http://www.quora.com/Ryan-Muller/answers">Quora answers</a>.
-          I'm also on:</p>
+          here on Github, and a bit of the thinking part of what I do on my <a
+            href="http://learnstream.org/wiki/"> research wiki</a> and my <a
+            href="http://blog.learnstream.org">blog</a>. I'm also on</p>
 
 
 <p>		<a rel="author" href="https://plus.google.com/115760070275187482798"
@@ -45,24 +43,16 @@
   src="https://ssl.gstatic.com/images/icons/gplus-32.png" width="32"
   height="32"></a> <a href="http://twitter.com/cicatriz"
   onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);"><img
-  src="http://wiki.learnstream.org/images/twitter.png"></a> </p>
+  src="http://wiki.learnstream.org/images/twitter.png"></a> <a
+  href="http://www.quora.com/Ryan-Muller"
+  onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://www.quora.com']);"><img
+  src="http://wiki.learnstream.org/images/quora.png"></a></p>
 
 <hr>
 
 <h3>Learnstream Trace</h3>
 
-<p><em>Currently in the works!</em></p>
-
-<p><a href="http://www.learnstream.org">Learnstream Trace</a> helps you learn any
-material on the web by organizing links, videos, and other embeddable content
-into <em>streams</em>. Items within a stream are set to a schedule so that you can
-keep making progress and reflect on your past activity. Streams are
-shareable, so you start learning from content providers like Khan Academy, TED,
-or MIT OpenCoruseWare, and you can share your own streams to let your friends, mentors,
-and fellowers see what you are learning.</p>
-
-<p>Technology: Ruby on Rails. <a
-  href="http://github.com/cicatriz/learntrace/">Source on Github</a>.</p>
+<p><em>Coming soon!</em></p>
 
 
 <hr> 
@@ -86,7 +76,7 @@ productivity, part self-tracking. See my blog for a <a
 <h3>Learnstream Rudinium</h3>
 
   
-<p><a href="http://rudinium.herokuapp.com/">Rudinium</a> is intended as a
+<p><a href="http://rudinium.herokuapp.com/">Rudinium</a> was intended as a
 "video dictionary" for the material we filmed for Harvey Mudd's Real Analysis
 course. Users can search for a definition or theorem in the course and then see
 a description and video clip.</p>
@@ -97,7 +87,7 @@ a description and video clip.</p>
   </div>
 
 <p>Of course, we didn't stop there. We created quizzes for many of the items so
-that they all can be studied on a spaced repetition schedule. (Check out the
+that they could all be studied on a spaced repetition schedule. (Check out the
 extracted <a href="https://github.com/cicatriz/spaceable">Spaceable gem</a> to
 use spaced repetition on any Rails model.)</p>
 
@@ -107,14 +97,14 @@ use spaced repetition on any Rails model.)</p>
   </div>
 
 
-<p>We also supply full lectures with synced notes:</p>
+<p>We also supplied full lectures with synced notes:</p>
 
 <div style="width: 600px; margin: auto;">
   <a href="images/proj/lsr4.png"><img src="images/proj/lsr4.png"></a>
   <div>Lecture on induction</div>
 </div>
   
-<p>Technology: Ruby on Rails, Popcorn.js, Backbone.js (thanks to <a
+<p>Technology: Ruby on Rails, Backbone.js (thanks to <a
   href="https://github.com/npisenti" class="user-mention">@npisenti</a> for
 most of the Backbone work). <a
   href="https://github.com/cicatriz/routini">Source on Github</a>.</p>
@@ -136,9 +126,10 @@ entering Harvey Mudd that wanted to brush up on physics and calculus.</p>
   <div>Some concepts for physics</div>
 </div>
 
-<p>Like Learnstream Beta, Atomic uses the concept of spaced repetition, but we
-implemented a more sophisticated user model that allows solving a single problem to count as a review for several knowledge components (called "concepts" in the interface).
-We represent knowledge components as questions, which were answered in our
+<p>Atomic again used the concept of spaced repetition, but we had a more
+sophisticated user model that allowed solving a single problem to count as a
+review for several knowledge components (called "concepts" in the interface).
+We represented knowledge components as questions, which were answered in our
 concept dictionary. Users can scrutinize the system's evaluation of their
 strength for each component.</p>
 
@@ -158,9 +149,6 @@ that they could be practiced and reviewed with the study interface.</p>
   <div>Video lesson with embedded question</div>
 </div>
 
-<p>Technology: Ruby on Rails, Raphael. <a
-  href="https://github.com/learnstream/ls_atomic">Source on Github</a>.</p>
-
 <hr>
 
 <h3>Learnstream Beta</h3>
@@ -179,8 +167,6 @@ taught by Professor Francis Su. Check out a demo:</p>
 <div style="text-align: center"><iframe width="420" height="315"
     src="http://www.youtube.com/embed/-WItLgnrQPc" frameborder="0"
     allowfullscreen></iframe></div>
-
-<p>Technology: Python/Django.</p>
         </section>
 
         <footer>
