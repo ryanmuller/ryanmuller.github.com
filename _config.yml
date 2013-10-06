@@ -1,0 +1,27 @@
+# General Jekyll Config
+pygments: true
+url: http://cicatriz.github.io
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: cicatiz
+    twitter: cicatriz
+    hacker_news: cicatriz
+
+  # "Hi, I'm _______"
+  name: Ryan Muller
+  email: ryan@learnstream.org
+  tagline: "something unpretensious"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: 
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true
