@@ -6,3 +6,31 @@
 {% include css/screen.css %}
 {% include css/layout.css %}
 {% include css/syntax.css %}
+
+.projects {
+  list-style-type: none;
+  margin: 0;
+}
+
+.projects li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.projects li img {
+  height: 180px;
+  opacity: 0.6;
+}
+
+.projects a:hover img {
+  opacity: 1;
+}
+
+img.project-inline {
+  max-width: 400px;
+  border: 10px solid whitesmoke;
+  margin-bottom: 20px;
+}
+
