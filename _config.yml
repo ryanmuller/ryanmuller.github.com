@@ -24,4 +24,4 @@ theme:
   google_analytics_key: 
 
   # Toggle "Postings are my own" disclaimer in footer
-  show_disclaimer: true
+  show_disclaimer: false
