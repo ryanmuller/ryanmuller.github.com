@@ -18,7 +18,7 @@ theme:
   # "Hi, I'm _______"
   name: Ryan Muller
   email: ryan@learnstream.org
-  tagline: "something unpretensious"
+  tagline: ""
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: 
