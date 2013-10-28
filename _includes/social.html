@@ -1,5 +1,11 @@
 Follow me:
 <div id="stalker">
+  {% if site.theme.social.twitter %}
+  <a title="{{ site.theme.social.twitter }} on Twitter" href="http://twitter.com/{{ site.theme.social.twitter }}">
+    <i class="icon-twitter-sign"></i>
+  </a>
+  {% endif %}
+
   {% if site.theme.social.github %}
   <a title="{{ site.theme.social.github }} on Github" href="http://github.com/{{ site.theme.social.github }}">
     <i class="icon-github-sign"></i>
@@ -13,13 +19,10 @@ Follow me:
   </a>
   {% endif %}
 
-  {% if site.theme.social.twitter %}
-  <a title="{{ site.theme.social.twitter }} on Twitter" href="http://twitter.com/{{ site.theme.social.twitter }}">
-    <i class="icon-twitter-sign"></i>
+  {% if site.theme.social.email %}
+  <a href="mailto:{{ site.theme.social.email }}">
+    <i class="icon-envelope"></i>
   </a>
   {% endif %}
-
-  <a title="RSS feed" id="rss" href="/atom.xml">
-    <i class="icon-rss-sign"></i>
-  </a>
 </div>
+<p><a href="/assets/cv.pdf">My resume</a></p>

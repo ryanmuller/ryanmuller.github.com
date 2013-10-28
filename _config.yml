@@ -1,6 +1,6 @@
 # General Jekyll Config
 pygments: true
-url: http://cicatriz.github.io
+url: http://ryanmuller.me
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 
@@ -14,6 +14,7 @@ theme:
     github: cicatiz
     twitter: cicatriz
     hacker_news: cicatriz
+    email: ryan@learnstream.org
 
   # "Hi, I'm _______"
   name: Ryan Muller
