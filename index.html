@@ -4,26 +4,37 @@ title: Home
 ---
 
 <div id="home">
-  <h2>About me</h2>
-  <p>I make experiments on the web, helping you learn and manage knowledge</p>
+  <div id="projects">
+    <div class="project">
+      <img src="/assets/images/tile-gk.png">
+      <h3>Geknowm</h3>
+      <p>Geknowm is a little startup with a huge goal: mapping human knowledge. We're starting with fun quizzes on common knowledge and the news. Geknowm tracks your knowledge in various topics over time as you answer questions.</p>
+      <p>Take a quiz at <a href="http://geknowm.com">geknowm.com</a></p>
+    </div>
+    <hr/>
 
-  <h2>Projects</h2>
-  <ul class="projects">
-    <li><a href="http://geknowm.com"><img
-      src="/assets/images/tile-gk.png"><span>Geknowm</span></a></li>
-    <li><a href="learnstream"><img
-      src="/assets/images/tile-ls.png"><span>Learnstream</span></a></li>
-    <li><a href="http://wiki.learnstream.org/wiki/"><img
-      src="/assets/images/tile-rw.png"><span>Research wiki</span></a></li>
-    <li><a href="http://shuff.herokuapp.com"><img
-      src="/assets/images/tile-sf.png"><span>Shuff</span></a></li>
-  </ul>
+    <div class="project">
+      <img src="/assets/images/tile-ls.png">
+      <h3>Learnstream</h3>
+      <p>I started Learnstream to bootstrap my studying in college. Since then, its experiments with learning from video and spaced repetition have made a professor into a YouTube celebrity, gotten the attention of Bill Gates, and helped students transition to Harvey Mudd's brutal physics program.</p>
+      <p><a href="learnstream">Learn more about Learnstream</a></p>
+    </div>
+    <hr/>
 
-  <h2><Writings</h2>
-  <ul id="blog-posts" class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <div class="project">
+      <img src="/assets/images/tile-rw.png">
+      <h3>Research wiki</h3>
+      <p>My research wiki tracked my first year in the Carnegie Mellon PhD program: highlights and summaries from papers I was reading and notes on my own research. The wiki uses <a href="http://reganmian.net/wiki/researchr:start">researchr</a>, but I added several extentions including a frontpage that visualizes my changes over the week.</p>
+      <p>If you need a fix of academic papers on learning science and human-computer interaction, head over to <a href="http://wiki.learnstream.org/wiki/">Ryan's Research Wiki</a>.</p>
+    </div>
+    <hr/>
+    
+    <div class="project">
+      <img src="/assets/images/tile-sf.png">
+      <h3>Shuff</h3>
+      <p>Shuff is an experiment in <a href="http://www.codinghorror.com/blog/2012/10/todont.html" target="_blank">killing the to-do list</a> via randomness and personal analytics. The web application provides a dashboard representing what you've done that day. If you see something you want to change, do it! If you aren't sure what to work on, Shuff can give you something random to do for a fixed amount of time.</p>
+      <p>Shuff your day at <a href="http://shuff.herokuapp.com/">http://shuff.herokuapp.com/</a>
+    </div>
+  </div>
 </div>
 

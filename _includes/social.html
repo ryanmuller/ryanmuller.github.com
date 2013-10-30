@@ -1,28 +1,7 @@
-Follow me:
-<div id="stalker">
-  {% if site.theme.social.twitter %}
-  <a title="{{ site.theme.social.twitter }} on Twitter" href="http://twitter.com/{{ site.theme.social.twitter }}">
-    <i class="icon-twitter-sign"></i>
-  </a>
-  {% endif %}
-
-  {% if site.theme.social.github %}
-  <a title="{{ site.theme.social.github }} on Github" href="http://github.com/{{ site.theme.social.github }}">
-    <i class="icon-github-sign"></i>
-  </a>
-  {% endif %}
-
-  {% if site.theme.social.hacker_news %}
-  <a title="{{ site.theme.social.hacker_news }} on Hacker News" href="http://news.ycombinator.com/user?id={{site.theme.social.hacker_news }}">
-    <i class="icon-sign-blank"></i>
-    <span class="icon-overlay icon-hn">Y</span>
-  </a>
-  {% endif %}
-
-  {% if site.theme.social.email %}
-  <a href="mailto:{{ site.theme.social.email }}">
-    <i class="icon-envelope"></i>
-  </a>
-  {% endif %}
-</div>
-<p><a href="/assets/cv.pdf">My resume</a></p>
+<a href="/assets/cv.pdf" style="width:auto">Resume</a>
+&middot;
+{% if site.theme.social.email %}
+<a href="mailto:{{ site.theme.social.email }}">Email</a> 
+{% endif %}
+&middot;
+<a href="http://twitter.com/cicatriz">Twitter</a>
