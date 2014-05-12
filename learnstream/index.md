@@ -6,9 +6,9 @@ title: Learnstream
 Learnstream is a series of several projects exploring learing on the web
 with video, problem solving, and spaced repetition. 
 
-## [Rudinium](http://rudinium.herokuapp.com)
+## Rudinium
 
-Rudinium is intended as a "video dictionary" for the material we filmed for Harvey Mudd's Real Analysis course. Users can search for a definition or theorem in the course and then see
+[Rudinium](http://rudinium.herokuapp.com) is intended as a "video dictionary" for the material we filmed for Harvey Mudd's Real Analysis course. Users can search for a definition or theorem in the course and then see
 a description and video clip.
 
 <img src="/assets/images/lsr2.png" class="project-inline">
@@ -22,9 +22,9 @@ use spaced repetition on any Rails model.)
 
 We also supplied full video lectures with synchronized notes.
 
-## [Atomic](http://learnstream.heroku.com)
+## Atomic
 
-Learnstream Atomic was created in the summer of 2011 for Harvey Mudd
+[Learnstream Atomic](http://learnstream.heroku.com) was created in the summer of 2011 for Harvey Mudd
 College by four students. Our target audience was students entering Harvey Mudd that wanted to brush up on physics and calculus.
 
 <img src="/assets/images/lsa4.png" class="project-inline">
